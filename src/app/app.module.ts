@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HijoComponent } from './hijo/hijo.component';
 import { EnlaceOverDirective } from './enlace-over.directive';
+import { EnlaceOverPersonalizadoDirective } from './enlace-over-personalizado.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     HijoComponent,
-    EnlaceOverDirective
+    EnlaceOverDirective,
+    EnlaceOverPersonalizadoDirective
   ],
   imports: [
     BrowserModule
